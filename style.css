@@ -50,7 +50,6 @@ button:hover {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-	background-color: red;
 }
 
 .dice {
@@ -60,7 +59,7 @@ button:hover {
 	height: 104px;
 	border-radius: 10%;
 	z-index: 100;
-	margin: 10px;
+	margin: 15px;
 }
 
 .dot {
@@ -130,4 +129,12 @@ button:hover {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+.number1-dice,
+.number2-dice,
+.number3-dice,
+.number4-dice,
+.number5-dice,
+.number6-dice {
+	display: none;
 }
